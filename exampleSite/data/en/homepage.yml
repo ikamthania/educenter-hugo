@@ -1,14 +1,14 @@
 ################################# Slider #####################################
 slider:
   enable : true
-  image : "images/banner/finance_analysis_.svg"
+  image : "images/banner/finance_analysis.svg"
   title : "Welcome to Aligarh Branch of CIRC ICAI"
   content : "Out motto is to serve the needs of members and students. We are committed to the highest standards of service for its member."
 
 ############################### Banner feature ###############################
 banner_feature:
   enable : true
-  image : "images/banner/career_.svg"
+  image : "images/banner/career.svg"
   feature_item:
     # feature item loop
     - name : "Scholorship News"
@@ -34,7 +34,7 @@ banner_feature:
 ############################## about ##################################
 about:
   enable : true
-  title : "About Aligarh branch of CIRC ICAI"
+  title : "About Aligarh branch of CIRC The Institute of Chartered Accountants of India"
   image : "images/about/entrepreneurs.svg"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
 
