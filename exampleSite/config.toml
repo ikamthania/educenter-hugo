@@ -4,10 +4,10 @@ disqusShortname = "educenter"
 paginate = "6"
 summaryLength = "10"
 theme = "educenter-hugo"
-title = "Educenter | hugo education template"
+title = "ALIGARH BRANCH OF CENTRAL INDIA REGIONAL COUNCIL OF THE INSTITUTE OF CHARTERED ACCOUNTANTS OF INDIA"
 [Languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; 2020 ICAI, ALIGARH. All Rights Reserved."
 home = "Home"
 languageCode = "en-us"
 languageName = "En"
@@ -75,14 +75,15 @@ URL = "contact"
 name = "Contact"
 weight = 5
 [params]
-address = "9567 Turner Trace Apt. BC C3G8A4"
+address = "‘Prabhu’, 3/197, Marris Road, Aligarh – 202 001 (U.P.)"
 author = "Themefisher"
 contact_form_action = "#"
-description = "This is meta description"
-email = "info@educenter.com"
+description = "Aligarh Branch of CIRC ICAI"
+email = "icaialigarh@gmail.com"
 google_analitycs_id = ""
 logo = "images/logo.png"
-mobile = "+211234565523"
+logo_alt = "images/logo-alt.png"
+mobile = "+919045783101"
 top_header = true
 [params.map]
 enable = true

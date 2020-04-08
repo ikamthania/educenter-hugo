@@ -1,46 +1,14 @@
 ################################# Slider #####################################
 slider:
   enable : true
-  bg_image : "images/banner/banner-1.jpg"
-  slider_item:
-    # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Apply now"
-        link : "contact"
-
-    # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Apply now"
-        link : "contact"
-
-    # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Apply now"
-        link : "contact"
-
+  image : "images/banner/finance_analysis_.svg"
+  title : "Welcome to Aligarh Branch of CIRC ICAI"
+  content : "Out motto is to serve the needs of members and students. We are committed to the highest standards of service for its member."
 
 ############################### Banner feature ###############################
 banner_feature:
   enable : true
-  image : "images/banner/banner-feature.png"
+  image : "images/banner/career_.svg"
   feature_item:
     # feature item loop
     - name : "Scholorship News"
@@ -66,8 +34,8 @@ banner_feature:
 ############################## about ##################################
 about:
   enable : true
-  title : "About Educenter"
-  image : "images/about/about-us.jpg"
+  title : "About Aligarh branch of CIRC ICAI"
+  image : "images/about/entrepreneurs.svg"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
 
 

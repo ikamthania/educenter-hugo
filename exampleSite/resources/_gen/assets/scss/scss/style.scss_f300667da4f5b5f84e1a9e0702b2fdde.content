@@ -40,37 +40,31 @@ h1, .h1 {
   @media (max-width: 575px) {
     h1, .h1 {
       font-size: 45px; } }
-
 h2, .h2 {
   font-size: 40px; }
   @media (max-width: 575px) {
     h2, .h2 {
       font-size: 30px; } }
-
 h3, .h3 {
   font-size: 25px; }
   @media (max-width: 575px) {
     h3, .h3 {
       font-size: 20px; } }
-
 h4, .h4 {
   font-size: 20px; }
   @media (max-width: 575px) {
     h4, .h4 {
       font-size: 18px; } }
-
 h5, .h5 {
   font-size: 18px; }
   @media (max-width: 575px) {
     h5, .h5 {
       font-size: 16px; } }
-
 h6, .h6 {
   font-size: 16px; }
   @media (max-width: 575px) {
     h6, .h6 {
       font-size: 14px; } }
-
 /* Button style */
 .btn {
   font-size: 16px;
@@ -254,7 +248,7 @@ a h4:hover {
     width: 100%;
     top: 0;
     left: 0;
-    background: #1a1a37;
+    background: white;
     opacity: .8; }
 
 .outline-0 {
@@ -267,7 +261,7 @@ a h4:hover {
   background: #ffbc3b !important; }
 
 .bg-secondary {
-  background: #1a1a37 !important; }
+  background: white !important; }
 
 .bg-gray {
   background: #f8f8f8; }
@@ -390,8 +384,7 @@ textarea.form-control {
       background: #ffbc3b;
       color: #fff;
       border-color: #ffbc3b; }
-    .pagination .page-item:first-child .page-link,
-    .pagination .page-item:last-child .page-link {
+    .pagination .page-item:first-child .page-link, .pagination .page-item:last-child .page-link {
       border-radius: 0; }
     .pagination .page-item .page-link {
       color: #5c5c77; }
@@ -464,7 +457,7 @@ textarea.form-control {
 
 .top-header {
   font-size: 12px;
-  transition: transform .2s ease;
+  transition: transform 0.2s ease;
   transform-origin: top;
   font-weight: 600; }
   .top-header.hide {
@@ -474,24 +467,22 @@ textarea.form-control {
 @media (max-width: 991px) {
   .header {
     position: static !important;
-    background: #1a1a37; } }
+    background: white; } }
 
 .navigation {
-  background-image: linear-gradient(to right, transparent 50%, #ffbc3b 50%);
-  transition: .2s ease; }
+  background-image: linear-gradient(to right, white 50%, #ffbc3b 50%);
+  transition: 0.2s ease; }
   @media (max-width: 575px) {
     .navigation {
-      background-image: linear-gradient(to right, transparent 70%, #ffbc3b 30%); } }
-
+      background-image: linear-gradient(to right, white 70%, white 30%); } }
 .navbar-nav {
-  padding-left: 50px;
-  background: #ffbc3b; }
+  padding-left: 45px; }
   @media (max-width: 991px) {
     .navbar-nav {
       padding-left: 0; } }
-
-.nav-bg {
-  background-color: #1a1a37; }
+.navbar-brand {
+  margin-right: 0px;
+  background-color: white; }
 
 .top-height {
   margin-top: -46px; }
@@ -512,7 +503,7 @@ textarea.form-control {
     background: #fff;
     transform: scaleY(0);
     transform-origin: top;
-    transition: transform .3s ease; }
+    transition: transform 0.3s ease; }
   .nav-item:hover::before, .nav-item.active::before {
     transform: scaleY(1);
     transform-origin: bottom; }
@@ -535,7 +526,6 @@ link:focus,
   @media (max-width: 991px) {
     .navbar-expand-lg .navbar-nav .nav-link {
       padding: 20px; } }
-
 .sticky {
   position: fixed;
   top: 0;
@@ -557,7 +547,7 @@ link:focus,
   border-radius: 0;
   display: block;
   visibility: hidden;
-  transition: .3s ease;
+  transition: 0.3s ease;
   opacity: 0;
   transform: translateY(20px);
   background: #fff; }
@@ -581,11 +571,10 @@ link:focus,
       .navbar .dropdown-menu.show {
         visibility: visible;
         display: block; } }
-
 .navbar .dropdown-item {
   position: relative;
   color: #1e1e4b;
-  transition: .2s ease;
+  transition: 0.2s ease;
   font-family: "Poppins", sans-serif; }
   @media (max-width: 991px) {
     .navbar .dropdown-item {
@@ -670,7 +659,6 @@ link:focus,
       padding: 50px; }
       .feature-blocks h3 {
         font-size: 25px; } }
-
 /* /banner feature */
 /* course */
 .card-btn {
@@ -698,7 +686,6 @@ link:focus,
       .success-video .play-btn {
         left: 50%;
         transform: translate(-50%, -50%); } }
-
 .play-btn {
   display: inline-block;
   height: 80px;
@@ -778,7 +765,6 @@ link:focus,
     @media (max-width: 575px) {
       .newsletter-block {
         padding-left: 15px; } }
-
 .input-wrapper {
   position: relative; }
   .input-wrapper button {

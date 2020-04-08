@@ -5,24 +5,28 @@
 <!-- hero slider -->
 {{ if $data.homepage.slider.enable }}
 {{ with $data.homepage.slider }}
-<section class="hero-section overlay bg-cover" data-background="{{ .bg_image | absURL }}">
+<section class="hero-section overlay bg-cover">
   <div class="container">
-    <div class="hero-slider">
+    <div class="">
       <!-- slider item -->
-      {{ range .slider_item }}
+
       <div class="hero-slider-item">
         <div class="row">
           <div class="col-md-8">
-            <h1 class="text-white" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3"
-              data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".1">{{ .title | markdownify }}</h1>
-            <p class="text-muted mb-4" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".4">{{ .content | markdownify }}</p>
-            {{ if .button.enable }}
-            <a href="{{ .button.link | absLangURL }}" class="btn btn-primary" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".7">{{ .button.label }}</a>
-            {{ end }}
+            <h1>
+              {{ .title | markdownify }}
+            </h1>
+            <p class="text-muted mb-4">
+              {{ .content | markdownify }}
+            </p>
+
+          </div>
+          <div class="col-md-4">
+            <img src="{{.image |absURL}}" alt="">
           </div>
         </div>
       </div>
-      {{ end }}
+
     </div>
   </div>
 </section>
@@ -94,7 +98,8 @@
           <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.course.title }}</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-            <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
+            <a href="{{ `course` | relLangURL }}"
+              class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
           </div>
         </div>
       </div>
@@ -112,7 +117,8 @@
     <!-- mobile see all button -->
     <div class="row">
       <div class="col-12 text-center">
-        <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
+        <a href="{{ `course` | relLangURL }}"
+          class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
       </div>
     </div>
   </div>
@@ -158,7 +164,8 @@
           <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.event.title }}</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-            <a href="{{`event` | relLangURL }}" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "see_all" }}</a>
+            <a href="{{`event` | relLangURL }}"
+              class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "see_all" }}</a>
           </div>
         </div>
       </div>
@@ -174,7 +181,8 @@
     <!-- mobile see all button -->
     <div class="row">
       <div class="col-12 text-center">
-        <a href="{{`event` | relLangURL }}" class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
+        <a href="{{`event` | relLangURL }}"
+          class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
       </div>
     </div>
   </div>

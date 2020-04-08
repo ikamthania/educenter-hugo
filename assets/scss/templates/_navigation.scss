@@ -1,6 +1,6 @@
 .top-header {
   font-size: 12px;
-  transition: transform .2s ease;
+  transition: transform 0.2s ease;
   transform-origin: top;
   font-weight: 600;
 
@@ -10,7 +10,7 @@
   }
 }
 
-.header{
+.header {
   @include desktop {
     position: static !important;
     background: $secondary-color;
@@ -18,28 +18,33 @@
 }
 
 .navigation {
-  background-image: linear-gradient(to right, transparent 50%, $primary-color 50%);
-  transition: .2s ease;
+  background-image: linear-gradient(to right, white 50%, $primary-color 50%);
+  transition: 0.2s ease;
 
   @include mobile {
-    background-image: linear-gradient(to right, transparent 70%, $primary-color 30%);
+    background-image: linear-gradient(to right, white 70%, white 30%);
   }
 }
 
 .navbar-nav {
-  padding-left: 50px;
-  background: $primary-color;
+  padding-left: 45px;
+  // background: $primary-color;
 
   @include desktop {
     padding-left: 0;
   }
 }
 
-.nav-bg {
-  background-color: $secondary-color;
+.navbar-brand {
+  margin-right: 0px;
+  background-color: white;
 }
 
-.top-height{
+.nav-bg {
+  // background-color: $secondary-color;
+}
+
+.top-height {
   margin-top: -46px;
 }
 
@@ -62,7 +67,7 @@
     background: $white;
     transform: scaleY(0);
     transform-origin: top;
-    transition: transform .3s ease;
+    transition: transform 0.3s ease;
   }
 
   &:hover,
@@ -83,10 +88,10 @@ link:focus,
   color: $white;
 }
 
-.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .show > .nav-link {
   color: $white;
 }
 
@@ -113,7 +118,7 @@ link:focus,
       .dropdown-menu {
         visibility: visible;
         opacity: 1;
-        transform: translateY(0)
+        transform: translateY(0);
       }
     }
 
@@ -125,7 +130,7 @@ link:focus,
       border-radius: 0;
       display: block;
       visibility: hidden;
-      transition: .3s ease;
+      transition: 0.3s ease;
       opacity: 0;
       transform: translateY(20px);
       background: $white;
@@ -161,7 +166,7 @@ link:focus,
     &-item {
       position: relative;
       color: $text-color-dark;
-      transition: .2s ease;
+      transition: 0.2s ease;
       font-family: $primary-font;
 
       @include desktop {
