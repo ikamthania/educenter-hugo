@@ -37,6 +37,21 @@
 
 /* /banner feature */
 
+/* hero feature */
+.hero-img {
+  @include desktop {
+    max-width: 100%;
+  }
+}
+
+.hero-section {
+  @include tablet {
+    padding: 100px 0px 100px;
+  }
+}
+
+/* /hero feature */
+
 /* course */
 .card-btn {
   font-size: 12px;
@@ -48,7 +63,7 @@
 }
 
 .hover-shadow {
-  transition: .3s ease;
+  transition: 0.3s ease;
 
   &:hover {
     box-shadow: 0px 4px 25px 0px rgba(27, 39, 71, 0.15);
@@ -99,8 +114,8 @@
     top: 50%;
     left: 50%;
     z-index: -2;
-    transition: .3s ease;
-    transition-delay: .2s;
+    transition: 0.3s ease;
+    transition-delay: 0.2s;
   }
 
   &::after {
@@ -114,7 +129,7 @@
     top: 50%;
     left: 50%;
     z-index: -1;
-    transition: .3s ease;
+    transition: 0.3s ease;
   }
 
   &:hover {
@@ -164,7 +179,11 @@
 
 /* footer */
 .newsletter {
-  background-image: linear-gradient(to right, transparent 50%, $primary-color 50%);
+  background-image: linear-gradient(
+    to right,
+    transparent 50%,
+    $primary-color 50%
+  );
   margin-bottom: -170px;
   position: relative;
   z-index: 1;
